@@ -12,6 +12,8 @@ long long arkerman (int m, int n) {
 int isvalidinput (int m, int n) {
 	if (m < 0 || n < 0) {
 		return 0;
+	} else {
+		return 1;
 	}
 }
 int main() {
